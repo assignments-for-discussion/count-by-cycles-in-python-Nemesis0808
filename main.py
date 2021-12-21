@@ -1,6 +1,6 @@
 
 def count_batteries_by_usage(cycles):
-counts={'lowCount':0,'mediumCount':0,'highCount':0}
+    counts={'lowCount':0,'mediumCount':0,'highCount':0}
     for cycle in cycles:
         if cycle<150:
             counts['lowCount']+=1
